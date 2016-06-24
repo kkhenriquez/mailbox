@@ -38,7 +38,8 @@ body, html {
   width: 20%; }
 
 .subject {
-  width: 60%; }
+  width: 60%;
+  font-size: 16px; }
 
 .date {
   font-size: 14px;
