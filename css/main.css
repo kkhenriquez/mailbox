@@ -1,0 +1,83 @@
+body, html {
+  font-family: "Raleway", sans-serif;
+  background: #f9f9f9; }
+
+.header {
+  background: #00bcd4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; }
+  .header img {
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center; }
+
+.main {
+  margin: 40px 0; }
+
+.email {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  margin: 0px 0px 8px;
+  padding: 20px 0; }
+  .email:hover {
+    background: #fcfcfc;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer; }
+  .email span {
+    color: #000;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis; }
+
+.from {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 2%;
+  width: 20%; }
+
+.subject {
+  width: 60%; }
+
+.date {
+  font-size: 14px;
+  padding-right: 2%;
+  text-align: right;
+  width: 15%; }
+
+a.back {
+  width: 200px;
+  background: #ffbd1a;
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  margin: 0 0 20px;
+  padding: 14px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+  a.back:hover {
+    text-decoration: none; }
+
+.email-view {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 50px; }
+  .email-view h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0 0 10px; }
+  .email-view .from {
+    display: inline-block;
+    padding: 0;
+    width: 50%; }
+  .email-view .date {
+    text-align: right;
+    display: inline-block;
+    padding: 0;
+    width: 50%; }
+  .email-view p {
+    font-size: 24px;
+    margin: 30px 0 0; }
+
+/*# sourceMappingURL=main.css.map */
